@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Values</key>
+	<dict>
+		<key>Izdavatelj</key>
+		<string>Vodovod i odvodnja d.o.o Šibenik</string>
+		<key>Opis usluge</key>
+		<string>Račun za isporučenu vodu</string>
+		<key>Broj računa</key>
+		<string>7783949</string>
+		<key>Za period</key>
+		<string>Svibanj 2012.</string>
+		<key>Iznos računa</key>
+		<string>163,74</string>
+		<key>Datum dospijeća</key>
+		<string>20.06.2012.</string>
+	</dict>
+</dict>
+</plist>

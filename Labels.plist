@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SN</key>
+	<string>Serial Number</string>
+	<key>C</key>
+	<string>Country</string>
+	<key>ST</key>
+	<string>State or Province Name</string>
+	<key>L</key>
+	<string>Locality Name</string>
+	<key>O</key>
+	<string>Organization Name</string>
+	<key>CN</key>
+	<string>Common Name</string>
+	<key>DN</key>
+	<string>Distinguished Name</string>
+	<key>OU</key>
+	<string>Organizational Unit</string>
+	<key>Version</key>
+	<string>Version</string>
+	<key>SA</key>
+	<string>Signature Algorithm</string>
+	<key>PubKey</key>
+	<string>Public Key</string>
+	<key>Length</key>
+	<string>Length</string>
+	<key>KeySize</key>
+	<string>Key Size</string>
+	<key>General Info</key>
+	<array>
+		<string>Serial Number</string>
+		<string>Version</string>
+		<string>Signature Algorithm</string>
+		<string>Parameters</string>
+		<string>Not Valid Before</string>
+		<string>Not Valid After</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'JimbaStandardEdition' target in the 'JimbaStandardEdition' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#define LocalizableFiles @"Localizable"
+#import <UIKit/UIKit.h>
+
+
+#define BACKIMAGE @"Background.png"
+#define BACKIMAGEDemo @"Background.png"
+
+#define APPNAME @"CertDemo"
+
+#define NUM_LANGUAGES 2
+
