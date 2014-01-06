@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0254DB80187ADBAA0074CE65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0254DB7F187ADBAA0074CE65 /* Default-568h@2x.png */; };
 		02D4EEDC183F5B2100B4EF62 /* BillOverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D4EEC6183F5B2100B4EF62 /* BillOverviewController.m */; };
 		02D4EEDD183F5B2100B4EF62 /* BillOverviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D4EEC7183F5B2100B4EF62 /* BillOverviewController.xib */; };
 		02D4EEDE183F5B2100B4EF62 /* CertGeneral.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D4EEC8183F5B2100B4EF62 /* CertGeneral.xib */; };
@@ -87,6 +88,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0254DB7F187ADBAA0074CE65 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		02D4EEC5183F5B2100B4EF62 /* BillOverviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillOverviewController.h; sourceTree = "<group>"; };
 		02D4EEC6183F5B2100B4EF62 /* BillOverviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillOverviewController.m; sourceTree = "<group>"; };
 		02D4EEC7183F5B2100B4EF62 /* BillOverviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillOverviewController.xib; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				0254DB7F187ADBAA0074CE65 /* Default-568h@2x.png */,
 				02D4EF2C183F5E9300B4EF62 /* certs */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -430,6 +433,7 @@
 				02D4EF27183F5B5A00B4EF62 /* Default.png in Resources */,
 				02D4EF28183F5B5A00B4EF62 /* Default@2x.png in Resources */,
 				02D4EF36183F5FC400B4EF62 /* cert.p12 in Resources */,
+				0254DB80187ADBAA0074CE65 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,8 +509,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Damir Guzvinec (B8824HKJN2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Damir Guzvinec (B8824HKJN2)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OBJC_CALL_CXX_CDTORS = YES;
@@ -556,8 +560,6 @@
 					UIKit,
 				);
 				PRODUCT_NAME = CertDemo;
-				PROVISIONING_PROFILE = "D275878E-542F-4DCD-81C7-2F326FE09443";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D275878E-542F-4DCD-81C7-2F326FE09443";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = include;
 			};
@@ -568,8 +570,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Damir Guzvinec (B8824HKJN2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Damir Guzvinec (B8824HKJN2)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_OBJC_CALL_CXX_CDTORS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -621,8 +623,6 @@
 					UIKit,
 				);
 				PRODUCT_NAME = CertDemo;
-				PROVISIONING_PROFILE = "D275878E-542F-4DCD-81C7-2F326FE09443";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D275878E-542F-4DCD-81C7-2F326FE09443";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = include;
 			};
